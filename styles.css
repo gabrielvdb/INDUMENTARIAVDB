@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+     min-height: 100%;
+}
+.index > * {
+    box-shadow: -1px 1px 7px 0px black;
+    border-radius: 2px;
+    padding: 9px;
+    text-align:center;
+}
+.nav {
+    grid-area:nav;
+    background-color: #3e1679;
+}
+
+.menu ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    
+ 
+
+}
+.menu ol li a{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+        color: white;
+        padding: 20px;
+       
+}
+.menu ol li a:hover{
+    background-color: black;
+}
+.main-index{
+    display: grid;
+    grid-area: main;
+    background:url(fondo.jpg);
+   background-position: center;
+  
+
+}
+.main-sobrenosotros{
+    display: grid;
+    grid-area: main;
+    background-color: black;
+}
+.main-envios{
+    display: grid;
+    grid-area: main;
+    font-size: 50px;
+    background-color: black;
+
+}
+.envios{
+    color: aliceblue;
+
+}
+.botones li{
+    display: inline-block;
+    padding: 200px;
+    margin-top: 400px;
+    text-align: center;
+    font-size: 2rem;
+   
+}
+.botones ol li a{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.botones ol li a:hover{
+    background-color:#3e1679;
+}
+.botones{
+    transform: translateY(-100px);
+
+}
+.indu{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 4rem;
+}
+.p{
+    color: aliceblue;
+}
+
+.foter{
+    grid-area: foter;
+    background-color: #3e1679;
+}
+.foter h3{
+   color: white;
+   text-align: left;
+   font-size: 15px;
+   
+}
+.sbh1{
+    color: white;
+}
+.sbp{
+    color: aliceblue;
+    font-size: 50px;
+}
+form{
+    background-color:#3e1679 ;
+    grid-area: main;
+    border-radius:3px;
+
+  
+}
+.contacto{
+    color: aliceblue;
+    border-radius:3px;
+    grid-area: main;
+    margin: 200px;
+    width: 300px;
+  padding: 50px;
+}
+.tienda{
+    display: flex;
+    flex-flow: inherit;
+    grid-area: main;
+    background-color: black;
+    padding: 200px;
+
+    justify-content: center;
+}
+.zapa{
+    display: flex;
+    flex-flow: column;
+    border-radius: 3px;
+    box-shadow: 0 0 0.2em black;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+
+  
+}
+.zapa:hover{ 
+    box-shadow: 0 0 1em white;
+}
+.zapa >img{
+    display: flex;
+    object-fit: cover;
+   height: 250px;
+    width: 250px;
+    border: 1px solid white;
+}
+.titulo1{
+    color: aliceblue;
+    border: 1.5px solid white;
+    padding: 4px;
+    display: flex;
+    text-align: left;
+
+}
+.zapa2{
+    display: flex;
+    flex-flow: column;
+    border-radius: 3px;
+    box-shadow: 0 0 0.2em black;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+   
+  
+
+}
+.zapa2:hover{ 
+    box-shadow: 0 0 1em white;
+}
+.zapa2 >img{
+    display: flex;
+    object-fit: cover;
+   height: 250px;
+    width: 250px;
+    border: 1px solid white;
+    
+}
+.titulo2{
+    color: aliceblue;
+    border: 1.5px solid white;
+    padding: 4px;
+    display: flex;
+    text-align: left;
+
+}
+.zapa3{
+    display: flex;
+    flex-flow: column;
+    border-radius: 3px;
+    box-shadow: 0 0 0.2em black;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+
+  
+}
+.zapa3:hover{ 
+    box-shadow: 0 0 1em white;
+}
+.zapa3 >img{
+    display: flex;
+    object-fit: cover;
+   height: 250px;
+    width: 250px;
+    border: 1px solid white;
+ 
+}
+.titulo3{
+    color: aliceblue;
+    border: 1.5px solid white;
+    padding: 4px;
+    display: flex;
+    text-align: left;
+
+}
+.zapa4{
+    display: flex;
+    flex-flow: column;
+    border-radius: 3px;
+    box-shadow: 0 0 0.2em black;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+
+
+  
+}
+.zapa4:hover{ 
+    box-shadow: 0 0 1em white;
+}
+.zapa4 >img{
+    display: flex;
+    object-fit: cover;
+   height: 250px;
+    width: 250px;
+    border: 1px solid white;
+}
+.titulo4{
+    color: aliceblue;
+    border: 1.5px solid white;
+    padding: 4px;
+    display: flex;
+  
+
+}
+    
+.index{
+    display: grid;
+    gap: 0px;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "foter";
+}
+.index{
+    grid-template-columns: 100% 100% 100%;
+    grid-template-rows: 80px 800px 90px;
+}
+@media screen and (max-width:600px) {
+    .index{
+        grid-template-columns: 100% 100% 100%;
+        grid-template-rows: auto 1500px auto;  
+         
+    }
+    
+    .menu ol {  
+        display: inline-block;
+        padding: 10px;
+     }
+     .menu ol li a:hover{
+        background-color: none
+        ;
+    }
+    .botones ol li {
+        display: flex;
+        margin: 100px;
+        padding: 100px;
+        
+       
+    }
+    .indu{
+        font-size: 3rem ;
+    }
+   .sbp{
+    font-size: 40px;}
+    .tienda{
+        display: flex;
+        flex-flow: column;
+        row-gap: 50px;
+        grid-area: main;
+        background-color: black;  }
+        .zapa{
+           
+            height: 200px;
+            width: 200px;     } 
+     
+          
+
+            .zapa >img{
+  
+                height: 200px;
+                 width: 200px;
+              
+             }
+    .zapa2{
+
+        height: 200px;
+        width: 200px;   }
+       
+    .zapa2 >img{
+  
+       height: 200px;
+        width: 200px;
+     }
+    .zapa3{
+    
+        height: 200px;
+        width: 200px;  }
+    .zapa3 >img{
+   
+       height: 200px;
+        width: 200px;
+      }
+    .zapa4{
+       
+        height: 200px;
+        width: 200px;
+    }
+    .zapa4 >img{
+       
+       height: 200px;
+        width: 200px;
+    }
