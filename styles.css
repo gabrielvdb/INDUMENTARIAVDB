@@ -21,27 +21,3 @@ section{
 }
     
 
-=======
-section{
-    padding: auto;
-    margin: auto;
-}
-.index{
-    font-family: Arial, Helvetica, sans-serif;
-     font-size: 1.2rem;
-}
-
-
-
-.foter{
- 
-    background-color:black;
-}
-.foter h3{
-   color: white;
-   text-align: left;
-   font-size: 15px;
-}
-    
-
->>>>>>> 0521aae351bd52f28cbd215b323beacef7857954
