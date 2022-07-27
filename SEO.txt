@@ -1,0 +1,3 @@
+Agregue las keywords en todas las paginas.
+Cambie la descripcion segun la pagina correspondiente
+Cambie todos los titulos de todos los HTML

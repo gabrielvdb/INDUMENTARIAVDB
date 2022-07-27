@@ -1,4 +1,20 @@
 @import "variables";
+@mixin color {
+    color: red;
+}
+
 .main_sobren{
     color: $colorTexto;
+}
+
+.main_contacto{
+    background-color: $colorFondo;
+}
+
+.titulo1{
+@include color();
+}
+
+.titulo2 {
+    color: $colorTexto2;
 }

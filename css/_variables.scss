@@ -1,2 +1,9 @@
-$colorTexto: red;
-$colortexto2: white;
+$colores: (colorTexto:red , colorTexto2:white , colorFondo:rgb(36, 3, 9));
+@each $colores in $colores{
+    
+}
+$estilos:( color:red,tF:50px,1rem: 1rem);
+
+$colorTexto:red;
+$colorTexto2:white;
+$colorFondo:rgb(36, 3, 9);
