@@ -12,4 +12,9 @@
 
 .titulo2 {
   color: white;
+}
+
+.main-rem {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
