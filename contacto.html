@@ -23,17 +23,7 @@
               <li class="nav-item">
                 <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light href="Tienda.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Tienda
-                </a>
-                <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item " href="remeras.html">Remeras</a></li>
-                  <li><a class="dropdown-item" href="buzos.html">Buzos</a></li>
-                  <li><a class="dropdown-item" href="pantalones.html">Pantalones</a></li>
-                  <li><a class="dropdown-item" href="calzados.html">Calzados</a></li>
-              
-                </ul>
+  
               <li class="nav-item ">
                 <a class="nav-link text-light" href="sobrenosotros.html">Sobre Nosotros</a>
               </li>
@@ -123,6 +113,40 @@
 
 </div>
 </footer>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.scss">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>VDB</title>
+</head>
+<body>
+    <div class="container py-2">
+    <p class="lead">Ingrese Usuario</p>
+    <form>
+        <input id="nombre" type="text" placeholder="Ingresa nombre" class="form-control my-2">
+        <input id="edad" type="text" placeholder="Ingresa edad" class="form-control my-2">
+        <button id="boton" class="btn btn-success" type="reset" onclick="capturar();">Agregar</button>
+    </form>
+    </div>
+    <div class="container">
+        <table class="table" id="tabla">
+       <thead class="thead-inverse">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+       </thead>
+        </table>
+    </div>
+
+    <script src="./app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
   </body>
 </html>
